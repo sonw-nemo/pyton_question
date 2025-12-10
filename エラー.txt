@@ -1,0 +1,23 @@
+あなたのローカルの変更を push しようとしたけど、リモートにも別の変更が入っているため、上書きできません。
+ git push -u origin main
+To https://github.com/sonw-nemo/python-basic-kadai.git
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.        
+PS C:\Users\Yuki\Documents\samurai>
+
+
+
+git pull　したが、改善せず。
+あなたのローカルの main ブランチが、GitHub の main ブランチより古い状態になっているため、push を拒否しました
+o https://github.com/sonw-nemo/python-basic-kadai.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/sonw-nemo/python-basic-kadai.git'
+hint: Updates were rejected because the tip of your current branch is behind  
+hint: its remote counterpart. If you want to integrate the remote changes,    
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.    
+PS C:\Users\Yuki\Documents\samurai>
+
+リモート名エラー
+error: remote origin already exists.
