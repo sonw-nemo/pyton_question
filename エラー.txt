@@ -21,3 +21,17 @@ PS C:\Users\Yuki\Documents\samurai>
 
 リモート名エラー
 error: remote origin already exists.
+
+
+GitHub（リモート）の main ブランチの方が、あなたのローカルより先に進んでいる
+同じ状態にしてあるのに・・・
+git push -u origin main
+To https://github.com/sonw-nemo/python-basic-kadai.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/sonw-nemo/python-basic-kadai.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use    
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\Yuki\Documents\samurai> 
